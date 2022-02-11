@@ -1,0 +1,227 @@
+[
+	{
+		"name": "Vegan Pumpkin Spice Bread",		
+		"description": "When the weather starts to turn, it's time to add some pumpkin spice flavors to your desserts. <br>This Vegan Pumpkin Spice Bread is a perfect bread to make so you can grab a quick snack all week long when cravings kick in.",
+		"url": "images/bread_recipe.jpg",
+		"qty_available": 20,
+		"unit_price": 25.00,
+		"offer_price": 19.00,
+		"rating": "4|125"
+	},
+	{
+		"name": "Vegan Strawberry Smoothie",		
+		"description": "Strawberry smoothies don't have to be filled with milk to taste good. <br>Make yourself a whole blender worth your while so that you have some leftovers that you can drink for a snack throughout the week.",
+		"url": "images/strawberry_juice_recipe.jpg",
+		"qty_available": 10,
+		"unit_price": 8.00,
+		"offer_price": 7.25,
+		"rating": "5|25"
+	},
+	{
+		"name": "Vegan Puppy Chow",		
+		"description": "Puppy chow is one of those irresistible treats that kids and adults alike can't help but grab by the handful. <br>You can even add a bunch of different toppings and it will still be just as good.",
+		"url": "images/puppy_chow_recipe.jpg",
+		"qty_available": 40,
+		"unit_price": 8.25,
+		"offer_price": 6.95,
+		"rating": "4|2"
+	},
+	{
+		"name": "Vegan Brownie",		
+		"description": "Brownies are a chocolate lover's delight and this vegan recipe is no exception. <br>They're moist, just like brownies should be! Top them with your favorite chocolate glaze and sprinkle some pecans on top for that extra crunch.",
+		"url": "images/brownie_recipe.jpg",
+		"qty_available": 80,
+		"unit_price": 9.50,
+		"offer_price": 8.95,
+		"rating": "4|200"
+	},
+	{
+		"name": "Vegan Mint Mocha Cupcakes",		
+		"description": "You will love the contrast of flavors in this Vegan Peppermint Peppermint Mocha Cake Recipe. <br>The rich chocolate cake is a perfect complement to the wicking frosting and you get the best of both worlds with every bite. Plus, you can add a cute little candy cane on top so no one can resist them.",
+		"url": "images/magdalena_recipe.jpg",
+		"qty_available": 25,
+		"unit_price": 4.50,
+		"offer_price": 4.50,
+		"rating": "4|650"
+	},
+	{
+		"name": "Vegan Mint Chocolate Chip Ice Cream",		
+		"description": "This mint chocolate chip ice cream is great for kids because it's dairy free, but still just as tasty! <br>You can subcontract coconut cream for raw cashews, which will give it that extra creamy texture that you'll love. The best part about making ice cream is that everything goes in the blender, so there is very little work involved.",
+		"url": "images/mint_ice_recipe.jpg",
+		"qty_available": 25,
+		"unit_price": 12.50,
+		"offer_price": 12.50,
+		"rating": "5|10"
+	},
+	{
+		"name": "Vegan Sweet Potato Pie Bars",		
+		"description": "Sweet potatoes aren't often added to desserts, but this cake bar recipe will make you a believer. <br>It's a creamy vanilla base with sweet potatoes and topped with maple syrup, cinnamon, and you can even add toasted pecans.",
+		"url": "images/camote_cake_recipe.jpg",
+		"qty_available": 15,
+		"unit_price": 2.50,
+		"offer_price": 2.50,
+		"rating": "4|68"
+	},
+	{
+		"name": "Depression cake",
+		"description": "This recipe has been around since the depression, but it tastes just as good now as it did then. <br>This vegan cake is made without butter, milk, or eggs, so it's something you can enjoy without feeling guilty. However, use it sparingly, because it is still high in sugar.",
+		"url": "images/depresion_cake_recipe.jpg",
+		"qty_available": 15,
+		"unit_price": 3.50,
+		"offer_price": 3.00,
+		"rating": "4|1570"
+	},
+	{
+		"name": "Chocolate mousse cake",
+		"description": "This vegan chocolate mousse cake recipe makes it clear that there is more to vegan desserts than fruit. <br>It's a decadent chocolate dessert and you won't believe it's dairy-free. This is a great recipe if you're showing someone that vegan food isn't just about bland fruits and veggies, it also tastes amazing.",
+		"url": "images/mousse_recipe.jpg",
+		"qty_available": 45,
+		"unit_price": 13.75,
+		"offer_price": 13.00,
+		"rating": "4|87"
+	},
+	{
+		"name": "Healthy Key Lime Pie Bars",
+		"description": "This is one of those healthy vegan desserts that you don't have to feel bad about having over and over again. <br>In fact, you can make a huge batch and freeze it so you always have some on hand when cravings set in. <br>The crust is made with walnuts, almonds, and coconut flakes that will help give it the same crunch that the original recipe has.",
+		"url": "images/lima_tarte_recipe.jpg",
+		"qty_available": 25,
+		"unit_price": 8.75,
+		"offer_price": 8.00,
+		"rating": "2|1"
+	},
+	{
+		"name": "vegan zucchini bread",
+		"description": "Zucchini bread may not be as visually stunning as some of these other recipes, but it is just as delicious. <br>It's one of the best breads you can have for breakfast because it has so many flavors but not too much sugar, so you can have it in the morning with no regrets later.",
+		"url": "images/calabacin_bread_recipe.jpg",
+		"qty_available": 10,
+		"unit_price": 5.25,
+		"offer_price": 5.25,
+		"rating": "4|73"
+	},
+	{
+		"name": "fudgesicles",
+		"description": "Now, you can have your own that tastes delicious and is also vegan. <br>This recipe is easy because all you need to do is mix the ingredients together and then make your fudge in a sheet pan until chilled.",
+		"url": "images/fudgesicles_recipe.jpg",
+		"qty_available": 10,
+		"unit_price": 2.25,
+		"offer_price": 2.25,
+		"rating": "4|125"
+	},
+	{
+		"name": "chocolate bark",
+		"description": "The classic crust dessert is great because you're essentially throwing a bunch of delicious treats into one. <br>You can change the ingredients in this recipe to match your personal taste buds.",
+		"url": "images/cover_chocolate_recipe.jpg",
+		"qty_available": 20,
+		"unit_price": 3.25,
+		"offer_price": 3.25,
+		"rating": "4|450"
+	},
+	{
+		"name": "The best vegan cheesecake",
+		"description": "This vegan cheesecake recipe may have a few ingredients, but it's worth the time it takes to make because it tastes so good. <br>With this recipe, you'll still get the same rich, creamy cheesecake feel you've always enjoyed.",
+		"url": "images/cheese_tarte_recipe.jpg",
+		"qty_available": 40,
+		"unit_price": 13.25,
+		"offer_price": 13.25,
+		"rating": "4|27"
+	},
+	{
+		"name": "Vegan Chocolate Coconut Bars",
+		"description": "They're packed with coconut flavor and have a chocolate crust so you get the best of both worlds. <br>You can even cover them in chocolate drizzle too for that extra sweet treat.",
+		"url": "images/chocolate_coco_bar_recipe.jpg",
+		"qty_available": 50,
+		"unit_price": 6.50,
+		"offer_price": 6.50,
+		"rating": "5|3560"
+	},
+	{
+		"name": "vanilla pudding",
+		"description": "This is another one of those easy vegan dessert recipes that you can make a bunch of and have a few ready if the kids are craving it all week. <br>If you want to impress your friends and family, whip up a batch of this vegan vanilla pudding and see how quickly it gets gobbled up.",
+		"url": "images/vanila_pudin_recipe.jpg",
+		"qty_available": 6,
+		"unit_price": 10.50,
+		"offer_price": 10.50,
+		"rating": "2|2"
+	},
+	{
+		"name": "tiramisu cupcakes",
+		"description": "Tiramisu is a more in-depth process than some of the other vegan desserts on this list, but you'll be glad you spent the time when it's done. <br>One bite into these vegan cupcakes and you'll be in heaven.",
+		"url": "images/tiramisu_cupcake_recipe.jpg",
+		"qty_available": 100,
+		"unit_price": 16.50,
+		"offer_price": 16.50,
+		"rating": "5|557"
+	},
+	{
+		"name": "vegan lemon bars",
+		"description": "A classic lemon bar oozes lemon flavor and few people can have just one. <br>This vegan alternative is just as good because you can recreate the same flavors, but without the dairy. <br>Instead of using butter, use coconut oil to make these bars because it's a healthier option compared to butter or shortening.",
+		"url": "images/lemon_bar_recipe.jpg",
+		"qty_available": 50,
+		"unit_price": 6.50,
+		"offer_price": 4.50,
+		"rating": "4|170"
+	},
+	{
+		"name": "vegan chocolate cookies",
+		"description": "Instead of just adding a few chocolate chips to your cookie recipe, make the entire cookie made of chocolate. <br>Make a whole batch for a party and they won't even know it's vegan. <br>The best part is that they are so easy to make and you can add all kinds of ingredients to them, like sprinkles or nuts.",
+		"url": "images/chocolate_cookie_recipe.jpg",
+		"qty_available": 25,
+		"unit_price": 1.50,
+		"offer_price": 1.50,
+		"rating": "4|243"
+	},
+	{
+		"name": "Vegan Peach Cobbler",
+		"description": "You can't have this vegan peach cobbler recipe without some vegan ice cream waiting on the side. <br>Coverage is the only part you need to consider. <br>The cobbler is great at parties because you can whip it up quickly, serve it with vegan ice cream, and have your guests enjoying a sweet treat in no time.",
+		"url": "images/peach_cobbler_recipe.jpg",
+		"qty_available": 25,
+		"unit_price": 8.35,
+		"offer_price": 7.50,
+		"rating": "5|36"
+	},
+	{
+		"name": "peanut butter cupcakes",
+		"description": "This vegan peanut butter cupcake recipe is loaded with flavor and will need a little almond milk on the side to wash it down. <br>Not only is peanut butter in the frosting, but it's in the cupcakes too.",
+		"url": "images/peanut_butter_cupcake_recipe.jpg",
+		"qty_available": 250,
+		"unit_price": 3.25,
+		"offer_price": 3.25,
+		"rating": "4|21"
+	},
+	{
+		"name": "vegan banana bread",
+		"description": "This banana bread is perfect for an after school snack or a quick morning meal with some vegan yogurt. <br>Not only does it taste great, but you can top it with fresh fruit and steamed oats for extra filling.",
+		"url": "images/banana_bread_recipe.jpg",
+		"qty_available": 5,
+		"unit_price": 7.25,
+		"offer_price": 7.25,
+		"rating": "3|12"
+	},
+	{
+		"name": "lemon loaf cake",
+		"description": "This is a perfect morning cake because it goes so well with a cup of coffee or hot chocolate. <br>The truth is, you can have this vegan lemon loaf cake on its own and it will still taste delicious.",
+		"url": "images/lemon_cake_recipe.jpg",
+		"qty_available": 15,
+		"unit_price": 17.25,
+		"offer_price": 17.25,
+		"rating": "3|26"
+	},
+	{
+		"name": "vegan chocolate chip cookies",
+		"description": "This vegan recipe will show you how to make them taste like the real thing without dairy. <br>The amazing thing about this recipe is that you can make it super large or small depending on how many people you need to serve. <br>If you want to make it even better, add some vegan chocolate chips but be careful, they won't last long.",
+		"url": "images/chocolate_chips_cookie_recipe.jpg",
+		"qty_available": 25,
+		"unit_price": 5.35,
+		"offer_price": 5.00,
+		"rating": "4|345"
+	},
+	{
+		"name": "baked donuts",
+		"description": "Donuts can be eaten at any time of the day, making this recipe perfect for breakfast or dessert. <br>Instead of making donuts that take a ton of ingredients, these are easy to make by baking.",
+		"url": "images/donuts_recipe.jpg",
+		"qty_available": 100,
+		"unit_price": 4.50,
+		"offer_price": 4.50,
+		"rating": "4|892"
+	}
+]

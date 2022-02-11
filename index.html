@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE121B - Eduardo Prieto Project</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="loader active">
+        <img src="images/loading.gif" alt="loading">
+    </div>
+    <header>
+        <div class="container navigation">
+            <a href="/">
+                <img src="images/logo.png" alt="logo" class="nav-logo">
+            </a>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container grid-layout">
+            <div class="category">
+                <h1>Vegan Desserts Recipes</h1>
+                <p>100+ Vegan Recipes
+                    Plant-based diets are healthier, environment-friendly, and really yummy. Our collection has over 1,940 real-people-tested vegan recipes for cooking and baking. Don't forget dessert!
+                    The best thing about going vegan? The desserts! Start with chocolate treats and work your way from there.
+                </p>
+            </div>
+            <div class="filter">
+                <div class="field">
+                    <h4>Search</h4>
+                    <input type="search" name="searchDessert" id="searchDessert" class="input-field">
+                </div>
+                <div class="field">
+                    <h4>Sort</h4>
+                    <select name="sortDessert" id="sortDessert" class="input-field">
+                        <option value="0">Ascendant</option>
+                        <option value="1">Descendant</option>
+                    </select>                    
+                </div>
+                <div class="field">
+                    <h4>Rating</h4>
+                    <div class="rating">
+                        <label class="input-field">
+                            <input type="radio" name="ratingDessert" value="5"> 5
+                        </label>
+
+                        <label class="input-field">
+                            <input type="radio" name="ratingDessert" value="4"> 4
+                        </label>
+                        
+                        <label class="input-field">
+                            <input type="radio" name="ratingDessert" value="3"> 3
+                        </label>
+
+                        <label class="input-field">
+                            <input type="radio" name="ratingDessert" value="2"> 2
+                        </label>
+
+                        <label class="input-field">
+                            <input type="radio" name="ratingDessert" value="1"> 1
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div id="resultPanel" class="result"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <ul class="grid-copyright">
+                <li>&copy;<span id="currentYear"></span> copyright reserved</li>
+                <li>Vegakes - "Vegan Cakes"</li>
+                <li>contact@vegakes.com</li>
+                <li>+99 999 999 999</li>
+            </ul>
+        </div>
+    </footer>
+    
+    <script src="scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Rowdies&family=Rubik&display=swap');
+
+:root {
+  --primary-color: #FAE1DD;
+  --secondary-color: #FFE5D9;
+  --accent-color: #E8E8E4;
+  --border-color: #ECE4DB;
+
+  --heading-font: 'Rowdies', cursive;
+  --paragraph-font: 'Roboto Condensed', sans-serif;
+  --paragraph-color: #000;
+  --nav-font: 'Rubik', sans-serif;
+
+  --headline-color-on-white: #000;
+  --headline-color-on-color: #fff;
+  --paragraph-color-on-white: #000;
+  --paragraph-color-on-color: #fff;
+  --text-background-color: #F8EDEB;
+  
+  --nav-link-color: #fff;
+  --nav-link-color-on-white: #000;
+  --nav-background-color: var(--accent-color);
+  --nav-hover-link-color: #fff;
+  --nav-hover-background-color: var(--secondary-color);
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    background-color: var(--text-background-color);
+    letter-spacing: 1.25px;
+    word-spacing: 1.5px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    margin: 0;
+    letter-spacing: 1.5px;
+}
+
+p, span {
+    font-family: var(--paragraph-font);
+}
+
+nav {
+    padding: 1rem 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+}
+
+nav ul li {
+    cursor: pointer;
+    list-style: none;
+    background-color: var(--nav-background-color);
+    padding: 1rem;
+    font-family: var(--nav-font);
+}
+
+nav ul li:hover, nav ul li:active, nav ul li:focus {
+    background-color: var(--nav-hover-background-color);
+}
+
+main {
+    margin-bottom: 1rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.divisor {
+    border: 1px solid white;
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+.navigation {
+    display: block;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+.nav-logo {
+    width: 100px;
+    height: 100px;
+    border: 2px solid var(--border-color);
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.nav-logo:hover {
+    box-shadow: 0 0 10px 2px var(--border-color);
+}
+
+.category, .filter, .result {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.filter .field {
+    padding: 1rem;
+    background-color: var(--accent-color);
+    border: 2px solid var(--accent-color);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.filter .field:last-child {
+    margin-bottom: unset;
+}
+
+.filter .field .input-field {
+    width: 100%;
+    border-radius: 9px;
+    padding: 0.5rem;
+    font-size: 16px;
+    margin: 0.5rem 0;
+    font-family: var(--paragraph-font);
+}
+
+.filter .rating {
+    display: flex;
+    padding: 0.5rem 0;
+}
+
+.filter .field label.input-field {
+    padding: 0;
+}
+
+.card {
+    width: 100%;
+    background-color: var(--secondary-color);
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.card:last-child {
+    margin-bottom: unset;
+}
+
+.card .card-body {
+    height: 300px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    position: relative;
+}
+
+.card .card-body img {
+    object-fit: cover;
+    object-position: center bottom;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.card .card-footer {
+    height: 225px;
+    padding: 1rem;
+    position: relative;
+}
+
+.card .card-footer h4.recipe-name {
+    height: 60px;
+}
+
+.card .card-footer p.recipe-description {
+    height: 130px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.stars {
+    float: left;
+}
+
+.stars .star::before {
+    content: '🤍';
+}
+
+.stars .star.colored::before {
+    content: '❤️';
+}
+
+.comments {
+    float: right;
+}
+
+footer {
+    background-color: var(--accent-color);
+}
+
+ul.grid-copyright {
+    margin: 0;
+    padding: 0.5rem;
+    display: block;
+    text-align: center;
+}
+
+ul.grid-copyright li {
+    list-style: none;
+    font-family: var(--nav-font);
+    font-size: 16px;
+}
+
+.grid-layout .result {
+    display: block;
+}
+
+.price {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-family: var(--paragraph-font);
+    font-size: 20px;
+    padding: 0.5rem;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+
+.price.offer {
+    bottom: 3.5rem;
+    background-color: red;
+    color: white;
+}
+
+.loader {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    transition: all 0.5s;
+    z-index: 9999;
+    opacity: 0.75;
+}
+
+.loader.active {
+    display: block;
+}
+
+.loader img {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 426px) {    
+    .grid-layout .result {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+
+    .card {
+        margin-bottom: unset;
+    }
+}
+
+@media screen and (min-width: 769px) {
+
+    nav ul {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .navigation {
+        display: grid;
+        align-content: center;
+        grid-template-columns: 7rem auto;
+        text-align: unset;
+        padding-top: unset;
+    }
+
+    .category, .filter, .result {
+        margin: unset;
+    }
+
+    .grid-layout {
+        display: grid;
+        grid-template-columns: 0.35fr 1fr;
+        grid-template-rows: auto auto;
+        gap: 1rem;
+    }
+
+    .grid-layout .category {
+        grid-column: 1/-1;
+        grid-row: 1;
+    }
+
+    .grid-layout .filter {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .grid-layout .result {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    ul.grid-copyright {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    ul.grid-copyright li {
+        list-style: none;
+        padding: 0.5rem;
+        font-family: var(--nav-font);
+    }
+
+    ul.grid-copyright li::after {
+        content: ' | ';
+    }
+
+    ul.grid-copyright li:last-child::after {
+        content: '';
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .grid-layout .result {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
