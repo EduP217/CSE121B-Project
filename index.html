@@ -50,6 +50,10 @@
                     <h4>Rating</h4>
                     <div class="rating">
                         <label class="input-field">
+                            <input type="radio" name="ratingDessert" value="0" id="defaultRadio" checked> All
+                        </label>
+
+                        <label class="input-field">
                             <input type="radio" name="ratingDessert" value="5"> 5
                         </label>
 
@@ -70,6 +74,7 @@
                         </label>
                     </div>
                 </div>
+                <button type="button" id="btnClearRating" class="button">Clear Filter</button>
             </div>
             <div id="resultPanel" class="result"></div>
         </div>

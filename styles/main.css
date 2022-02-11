@@ -133,6 +133,7 @@ main {
 .filter .rating {
     display: flex;
     padding: 0.5rem 0;
+    flex-wrap: wrap;
 }
 
 .filter .field label.input-field {
@@ -145,6 +146,7 @@ main {
     border: 3px solid white;
     border-radius: 10px;
     margin-bottom: 1rem;
+    max-height: 565px;
 }
 
 .card:last-child {
@@ -175,6 +177,7 @@ main {
 
 .card .card-footer h4.recipe-name {
     height: 60px;
+    text-transform: capitalize;
 }
 
 .card .card-footer p.recipe-description {
@@ -265,6 +268,14 @@ ul.grid-copyright li {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.button {
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--border-color);
+    background-color: white;
+    font-family: var(--nav-font);
+    border-radius: 20px;
 }
 
 @media screen and (min-width: 426px) {    

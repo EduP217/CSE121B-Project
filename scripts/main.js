@@ -162,3 +162,14 @@ document.querySelector('#sortDessert').addEventListener('change', delay(filterRe
 document.querySelectorAll('input[name="ratingDessert"]').forEach((e) => {
     e.addEventListener("change", delay(updateRatingSelected, 250));
 });
+
+document.querySelector('#btnClearRating').addEventListener('click',()=>{
+    ratingSelected = 0;
+    document.querySelector('#searchDessert').value = '';
+    document.querySelector('#sortDessert').value = 0;
+    document.getElementById('defaultRadio').checked = 'True';
+    document.querySelector('#searchDessert').focus();
+    filterRecipes();
+})
+
+document.querySelector('#searchDessert').focus();
